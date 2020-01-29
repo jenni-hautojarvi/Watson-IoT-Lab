@@ -38,13 +38,13 @@ After downloading the app insert battery into the SensiBLE. Red led should light
 
 Now your SensiBLE devices is connected to your phone. **When you close the app the connection closes and the led is red.** To reconnect open the app and bush the button in SensiBLE side.
 
-# Step 2. Create Watson IoT platform and connect SensiBLE
+# Step 2. Create Watson IoT Platform and connect SensiBLE
 
-## Create Watson IoT platform
+## Create Watson IoT Platform
 
-In this section we are going to create a **_Watson IoT platform_** instance on IBM Cloud, and use it to connect SensiBLE device to receive data.
+In this section we are going to create a **_Watson IoT Platform_** instance on IBM Cloud, and use it to connect SensiBLE device to receive data.
 
-**(1)** Log into IBM Cloud and create a **_Watson IoT platform_** service.
+**(1)** Log into IBM Cloud and create a **_Watson IoT Platform_** service.
 - Click on `Catalog`, then filter by clicking on `Internet of Things`
 - Select `Internet of Things Platform`
 
@@ -76,10 +76,10 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/Platform_account.png)
 
-#### **Now you are ready to connect your device**
+#### **Now you are ready to connect your device. Nice work!**
 
 
-## Connect SensiBLE to Watson IoT platform
+## Connect SensiBLE to Watson IoT Platform
 
 **(1)** Click `Add Device`.
 
@@ -101,7 +101,9 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/IBM_IoT_Token.png)
 
-**(6)** Now you can see summary of your device. Add Organization and Authentication Token information to the APP.
+**(6)** Now you can see summary of your device. Add **Organization** (from upper right corner, after ID: "This is organization") and **Authentication Token** (you just write it) information to the APP.
+
+## **Kuva tähän vielä**
 
 ![](./images/IBM_IoT_Token.png)
 
@@ -113,7 +115,7 @@ If the information is correct click `Finnish`.
 
 ![](./images/Connect_select.png)
 
-From IBM IoT Platform you can see in Recent Events section the data from SensiBLE.
+From IBM IoT Platform you can see in `Recent Events` section the data from SensiBLE.
 
 **You have now connected SensiBLE to IBM IoT Platform. Good job!**
 
