@@ -1,4 +1,4 @@
 # _**Watson IoT**_ Lab
 
-## Prerequisites
+# Prerequisites
 - [IBM Cloud](https://cloud.ibm.com) account
