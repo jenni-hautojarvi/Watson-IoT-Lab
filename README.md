@@ -32,6 +32,20 @@ The SensiBLE “IoT Hardware Ready” allows quick and easy prototyping of IoT d
 
 ![](./images/Download_app.png)
 
-After downloading the app insert battery into the SensiBLE. Red led should light up in SensiBLE. Open application and click **Connect to a device**. Select your **device** from list by clicking it. Now you should see data from your device and the led should be green. (_The few might be different using Android_)
+After downloading the app insert battery into the SensiBLE. Red led should light up in SensiBLE. Open application and click **Connect to a device**. Select your **device** from list by clicking it. Now you should see data from your device and the led should be green. (_The application layout might be different using Android_)
 
 ![](./images/Connect_app_sensor.png)
+
+Now your SensiBLE devices is connected to your phone. **When you close the app the connection closes and the led is red.** To reconnect open the app and bush the button in SensiBLE side.
+
+# Step 2. Create Watson IoT platform and connect SensiBLE
+
+## Step 2.1 Create Watson IoT platform
+
+## Step 2.2 Connect SensiBLE to Watson IoT platform
+
+# Step 3. Create Node-Red dashboard and connect Watson IoT platform for visualises data
+
+# Summary
+
+In this lab you created connection between SensiBLE and Watson IoT platform and visualised the data in a dashboard using Node-RED.
