@@ -38,6 +38,8 @@ After downloading the app insert battery into the SensiBLE. Red led should light
 
 Now your SensiBLE devices is connected to your phone. **When you close the app the connection closes and the led is red.** To reconnect open the app and bush the button in SensiBLE side.
 
+********************
+
 # Step 2. Create Watson IoT Platform and connect SensiBLE
 
 ## Create Watson IoT Platform
@@ -120,6 +122,8 @@ From IBM IoT Platform you can see in `Recent Events` section the data from Sensi
 ![](./images/Recent_event.png)
 
 **You have now connected SensiBLE to IBM IoT Platform. Good job!**
+
+******************************
 
 # Step 3. Create Node-Red dashboard and connect Watson IoT Platform for visualises data
 
