@@ -64,9 +64,17 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/IBM_Cloud_launch_IoT.png)
 
-**(4)** You might need to log in using your IBM Cloud username and password.
+**(4)** You might need to sing in using your **IBM Cloud username and password**.
 
 ![](./images/Sign_in_IBM_IoT_platform.png)
+
+**(5)** Click your name in upper right corner.
+
+![](./images/IBM_IoT_platform.png)
+
+**(6)** Select IoT account by clicking it.
+
+![](./images/Platform_account.png)
 
 
 ## Connect SensiBLE to Watson IoT platform
