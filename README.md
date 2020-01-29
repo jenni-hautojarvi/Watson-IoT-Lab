@@ -32,6 +32,6 @@ The SensiBLE “IoT Hardware Ready” allows quick and easy prototyping of IoT d
 
 ![](./images/Download_app.png)
 
-After downloading the app insert battery into the SensiBLE. Red led should light up in SensiBLE. Open application and click **Connect to a device**. Select your device from list by clicking it. Now you should see data from your device. The few might be different in Android.
+After downloading the app insert battery into the SensiBLE. Red led should light up in SensiBLE. Open application and click **Connect to a device**. Select your **device** from list by clicking it. Now you should see data from your device and the led should be green. (_The few might be different using Android_)
 
 ![](./images/Connect_app_sensor.png)
