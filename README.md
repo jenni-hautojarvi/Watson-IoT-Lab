@@ -1,13 +1,15 @@
 # _**Watson IoT platform**_ Lab
 
 ## Introduction
-In this guide, Step by Step we connect SensiEDGE’s SensiBLE to IBM Watson IoT Platform in IBM Cloud and and visualises data in the Node-RED application.
+In this guide, Step by Step we connect SensiEDGE’s SensiBLE to IBM Watson IoT Platform in IBM Cloud and visualises data in the Node-RED application.
 
 ![](./images/Workflow.png)
 
 ### Prerequisites
 - [IBM Cloud](https://cloud.ibm.com) account
 - Sensor, In this lab we use SensiEDGE’s SensiBLE
+
+# Step 1. Connect SensiEDGE’s SensiBLE to ST BLUEMS APP to read data
 
 ### SensiEDGE’s SensiBLE
 
@@ -25,3 +27,7 @@ The SensiBLE “IoT Hardware Ready” allows quick and easy prototyping of IoT d
 - 16-bit humidity and temperature output data
 - I²C interfaces
 - Factory calibrated
+
+## 1.1 Download & Install ST BLUEMS APP from Google drive/App Store to your phone
+
+![](./images/Download_app.png)
