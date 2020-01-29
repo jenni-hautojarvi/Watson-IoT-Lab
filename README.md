@@ -97,6 +97,26 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/Metadata.png)
 
+**(5)** You can write your own **Authentication Token** example "Sensi2901" and click `Next`.
+
+![](./images/IBM_IoT_Token.png)
+
+**(6)** Now you can see summary of your device. Add Organization and Authentication Token information to the APP.
+
+![](./images/IBM_IoT_Token.png)
+
+If the information is correct click `Finnish`.
+
+![](./images/Add_device_summary.png)
+
+**(7)** Now you can click `Connect` from the APP and select Humidity and Temperature.
+
+![](./images/Connect_select.png)
+
+From IBM IoT Platform you can see in Recent Events section the data from SensiBLE.
+
+**You have now connected SensiBLE to IBM IoT Platform. Good job!**
+
 # Step 3. Create Node-Red dashboard and connect Watson IoT Platform for visualises data
 
 # Summary
