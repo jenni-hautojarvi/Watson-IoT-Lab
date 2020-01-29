@@ -50,7 +50,7 @@ In this section we are going to create a **_Watson IoT platform_** instance on I
 
 ![](./images/IBM_Cloud_Catalog.png)
 
-**(2)** Create the service with a unique name: we'd suggest something like `Watson Assistant-eventname-yourinitials`, e.g. `Watson Assistant-workshop-JH`
+**(2)** Create the service with a unique name: we'd suggest something like `Internet of Things Platform-eventname-yourinitials`, e.g. `Internet of Things Platform-workshop-JH`
 
 Ensure you are using the `Lite` plan.
 
@@ -59,6 +59,10 @@ Ensure you are using the `Lite` plan.
 Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/IBM_Cloud_name_IoT.png)
+
+**(3)** Click on `Launch`.
+
+![](./images/IBM_Cloud_launch_IoT.jpg)
 
 
 ## Connect SensiBLE to Watson IoT platform
