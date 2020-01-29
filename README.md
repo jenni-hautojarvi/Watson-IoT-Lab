@@ -64,10 +64,14 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/IBM_Cloud_launch_IoT.jpg)
 
+**(4)** You might need to log in using your IBM Cloud username and password
+
+![](./images/Sign in IBM IoT platform.jpg)
+
 
 ## Connect SensiBLE to Watson IoT platform
 
-# Step 3. Create Node-Red dashboard and connect Watson IoT platform for visualises data
+# Step 3. Create Node-Red dashboard and connect Watson IoT Platform for visualises data
 
 # Summary
 
