@@ -76,8 +76,15 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/Platform_account.png)
 
+### **Now you are ready to connect your device**
+
 
 ## Connect SensiBLE to Watson IoT platform
+
+**(1)** Click `Add Device`.
+
+![](./images/IBM_IoT_add_device.png)
+
 
 # Step 3. Create Node-Red dashboard and connect Watson IoT Platform for visualises data
 
