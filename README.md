@@ -40,17 +40,28 @@ Now your SensiBLE devices is connected to your phone. **When you close the app t
 
 # Step 2. Create Watson IoT platform and connect SensiBLE
 
-## Step 2.1 Create Watson IoT platform
+## Create Watson IoT platform
 
 In this section we are going to create a **_Watson IoT platform_** instance on IBM Cloud, and use it to connect SensiBLE device to receive data.
 
 **(1)** Log into IBM Cloud and create a **_Watson IoT platform_** service.
 - Click on `Catalog`, then filter by clicking on `Internet of Things`
 - Select `Internet of Things Platform`
+
 ![](./images/IBM_Cloud_Catalog.png)
 
+**(2)** Create the service with a unique name: we'd suggest something like `Watson Assistant-eventname-yourinitials`, e.g. `Watson Assistant-workshop-JH`
 
-## Step 2.2 Connect SensiBLE to Watson IoT platform
+Ensure you are using the `Lite` plan.
+
+![](./images/IBM_Cloud_IoT.png)
+
+Scroll down and give the service name you want, then hit `Create`.
+
+![](./images/IBM_Cloud_name_IoT.png)
+
+
+## Connect SensiBLE to Watson IoT platform
 
 # Step 3. Create Node-Red dashboard and connect Watson IoT platform for visualises data
 
