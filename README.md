@@ -64,7 +64,7 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/IBM_Cloud_launch_IoT.png)
 
-**(4)** You might need to sing in using your **IBM Cloud username and password**.
+**(4)** You might need to sing in using your **IBM Cloud Username and Password**.
 
 ![](./images/Sign_in_IBM_IoT_platform.png)
 
@@ -72,7 +72,7 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/IBM_IoT_platform.png)
 
-**(6)** Select IoT account by clicking it.
+**(6)** Select organization by clicking it.
 
 ![](./images/Platform_account.png)
 
