@@ -85,11 +85,11 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/IBM_IoT_add_device.png)
 
-**(2)** lisää tiedot puhelimesta tee kuva jossa näytettään flow.
+**(2)** From ST BLUEMS APP you need to find Device Type and Device Id.
 
-![](./images/IBM_IoT_add_device_id_type.png)
+![](./images/Device_id_type.jpeg)
 
-**(3)** Add Device Type and Device ID and click `Next`.
+**(3)** Add Device Type and Device ID from App and click `Next`.
 
 ![](./images/IBM_IoT_add_device_id_type.png)
 
