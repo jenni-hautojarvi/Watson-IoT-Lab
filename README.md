@@ -117,6 +117,8 @@ If the information is correct click `Finnish`.
 
 From IBM IoT Platform you can see in `Recent Events` section the data from SensiBLE.
 
+![](./images/Recent_event.png)
+
 **You have now connected SensiBLE to IBM IoT Platform. Good job!**
 
 # Step 3. Create Node-Red dashboard and connect Watson IoT Platform for visualises data
