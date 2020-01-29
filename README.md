@@ -28,7 +28,7 @@ The SensiBLE “IoT Hardware Ready” allows quick and easy prototyping of IoT d
 - I²C interfaces
 - Factory calibrated
 
-## Step 1.1 Download & Install ST BLUEMS APP and connect SensiBLE
+## Download & Install ST BLUEMS APP and connect SensiBLE
 
 ![](./images/Download_app.png)
 
@@ -122,6 +122,40 @@ From IBM IoT Platform you can see in `Recent Events` section the data from Sensi
 **You have now connected SensiBLE to IBM IoT Platform. Good job!**
 
 # Step 3. Create Node-Red dashboard and connect Watson IoT Platform for visualises data
+
+## Create Node-Red app from catalog
+
+**About Node-RED**
+
+Node-RED is a visual tool for wiring the internet of things - connecting hardware devices, APIs and online services in a new and interesting way. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single-click.
+
+- JavaScript functions can be created within the editor using a rich text editor.
+- A built-in library allows you to save useful functions, templates or flows for re-use.
+- See [https://nodered.org](https://nodered.org) for more information.
+
+If you already have a Node-RED application, you can use that - In that case jump to add flow from text-file.
+
+***********
+
+## Add image how to built node-red app....
+
+*******
+
+## Build your Node-RED flow to show IoT data Dashboard
+
+Add nodes:
+
+Copy dashboard.txt file from github. **Click** in Node-Red upper right corner "burger menu" and `Import` part. Paste text you just have copy from github and click `Import`.
+
+**kuva tähän**
+
+Add information to IoT-node connecting IBM IoT Platform to Node-Red.
+
+**Kuva tähän**
+
+Now click `Deploy` from upper right corner and click link to access ui. New Tab opens and now you can see your data from SensiBLE in Node-Red Dashboard.
+
+![](./images/Dashboard.png)
 
 # Summary
 
