@@ -1,4 +1,4 @@
-# _**Watson IoT**_ Lab
+# _**Watson IoT platform**_ Lab
 
 ## Introduction
 In this guide, we will feed sensor data into IBM IoT platform and visualises it in the Node-RED application.
