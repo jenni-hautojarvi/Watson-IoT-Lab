@@ -248,10 +248,13 @@ Add API Key and API Token from IBM IoT Platform. Click `Update`.
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/IBM_IoT_API_credentials.png" width="60%" height="60%">
 
+When you have make all the changes to this node, click `Done`.
 
-**Kuva tähän**
+Now first click `dashboard-button` from upper right corner and then click `Deploy`. Everytime `Deploy` is red there are changes in the flow that has not been update. Next clik link to access ui.
 
-Now click `Deploy` from upper right corner and click link to access ui. New Tab opens and now you can see your data from SensiBLE in Node-Red Dashboard.
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/link_to_dashboard.png" width="60%" height="60%">
+
+New Tab opens and now you can see your data from SensiBLE in Node-Red Dashboard.
 
 ![](./images/Dashboard.png)
 
