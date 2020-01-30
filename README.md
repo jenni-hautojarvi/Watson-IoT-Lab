@@ -139,7 +139,13 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 
 If you already have a Node-RED application, you can use that - In that case jump to add flow from text-file.
 
-***********
+**If you have running Node-Red in IBM Cloud you can skip this and use the existing one**
+
+**(1)** Go back IBM Cloud and create a **_Node-Red Cloud Foundry App_** service.
+- Click on `Catalog` and `Software`, then write in search field **node-red**
+- Select `Node-RED Starter`
+
+![](./images/IBM_catalog_node-red.png)
 
 ## Add image how to built node-red app....
 
