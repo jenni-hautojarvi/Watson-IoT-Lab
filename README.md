@@ -198,14 +198,16 @@ Note: If you get an "Authorization denied" message when deploying your applicati
 
 In the Node-RED window click on the three lines (burger menu) on the top right corner and in the menu, click on the `Manage palette`. This will open the node menu where you can add new nodes to your application.
 
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/manage_palette.png" width="50%" height="50%">
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/manage_palette.png" width="30%" height="30%">
 
 Install 2 packages:
 - node-red-contrib-scx-ibmiotapp
 - node-red-dashboard
 
 ![](./images/install_package.png)
-![](./images/install.png)
+
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/install.png" width="50%" height="50%">
+
 
 Repeat for another package.
 
