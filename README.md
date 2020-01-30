@@ -159,6 +159,20 @@ Scroll down and give the app name you want, then hit `Create`. This name will sh
 
 ![](./images/IBM_node-red_launch.png)
 
+**(4)** Configure your Node-RED editor.
+
+In this section, you will set up a username and password to protect your flow.
+
+![](./images/node-red_instance_setup.png)
+
+Write an username and a password of your choice and click 'Next'. Remember that it does not have to be related to your IBM Cloud access.
+
+![](./images/node-red_instace_credits.png)
+
+Node-RED is an open source project so you can add new nodes to the palette by modifying the package.json file.
+
+![](./images/node-red_instance_next.png)
+
 
 ## Add image how to built node-red app....
 
