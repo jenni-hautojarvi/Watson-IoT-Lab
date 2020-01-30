@@ -247,7 +247,7 @@ Import the flow by simply clickcing on the 3 white lines on the top right corner
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/import_json.png" width="30%" height="30%">
 
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/paste_json.png" width="50%" height="50%">
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/paste_json.png" width="60%" height="60%">
 
 Now your flow should look like this:
 
