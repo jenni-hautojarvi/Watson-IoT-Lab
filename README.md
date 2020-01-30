@@ -182,7 +182,9 @@ Node-RED is an open source project so you can add new nodes to the palette by mo
 
 ![](./images/node-red_editor.png)
 
-![](./images/node-red_editor_credits.png =height="36px" width="36px")
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/node-red_editor_credits.png" width="50%" height="50%">
+
+
 
 When using Node-RED we build our apps using this graphical editor interface to wire together the blocks we need. We can simply drag and drop the blocks from the left menu into the workspace in the center of the screen and connect them to create a new flow.
 
