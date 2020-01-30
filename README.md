@@ -220,12 +220,17 @@ Repeat for another package.
 
 You can get the complete Node-RED flow from the Hamk-IoT-Dashboard.json.
 
-Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. Import - Clipboard - and paste the text you copied from above.
-Copy dashboard.txt file from github. **Click** in Node-Red upper right corner "burger menu" and `Import` part. Paste text you just have copy from github and click `Import`.
+Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. Click `Import` and paste the text you copied from above. Click `Import`.
 
-**kuva tähän**
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/import_json.png" width="50%" height="50%">
 
-Add information to IoT-node connecting IBM IoT Platform to Node-Red.
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/paste_json.png" width="50%" height="50%">
+
+Now your flow should look like this:
+
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/flow.png" width="50%" height="50%">
+
+**(3)** Add information to IoT-node connecting IBM IoT Platform to Node-Red.
 
 **Kuva tähän**
 
