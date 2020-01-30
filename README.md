@@ -200,18 +200,27 @@ In the Node-RED window click on the three lines (burger menu) on the top right c
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/manage_palette.png" width="30%" height="30%">
 
+You will see the nodes that are installed by default and if you go to the 'install' tab you can search for any node package and add it directly to your app.
+
 Install 2 packages:
 - node-red-contrib-scx-ibmiotapp
 - node-red-dashboard
 
 ![](./images/install_package.png)
 
+This will prompt a window to confirm the installation. Click on install and wait few minutes, the application may require a restart. Click "Done" to close the left side menu.
+
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/install.png" width="50%" height="50%">
 
+After few minutes you will see the new nodes in your Node-RED palette.
 
 Repeat for another package.
 
+**(2)** In order to make the lab easier we are going to import the rest of the code.
 
+You can get the complete Node-RED flow from the Hamk-IoT-Dashboard.json.
+
+Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. Import - Clipboard - and paste the text you copied from above.
 Copy dashboard.txt file from github. **Click** in Node-Red upper right corner "burger menu" and `Import` part. Paste text you just have copy from github and click `Import`.
 
 **kuva tähän**
