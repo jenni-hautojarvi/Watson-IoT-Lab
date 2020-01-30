@@ -251,7 +251,7 @@ Import the flow by simply clickcing on the 3 white lines on the top right corner
 
 Now your flow should look like this:
 
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/flow.png" width="60%" height="60%">
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/flow.png" width="70%" height="70%">
 
 
 **(3)** Add information to IoT-node connecting IBM IoT Platform to Node-Red.
