@@ -182,7 +182,7 @@ Node-RED is an open source project so you can add new nodes to the palette by mo
 
 ![](./images/node-red_editor.png)
 
-![](./images/node-red_editor_credits.png)
+![](./images/node-red_editor_credits.png){:height="50%" width="50%"}
 
 When using Node-RED we build our apps using this graphical editor interface to wire together the blocks we need. We can simply drag and drop the blocks from the left menu into the workspace in the center of the screen and connect them to create a new flow.
 
@@ -197,7 +197,7 @@ Note: If you get an "Authorization denied" message when deploying your applicati
 
 In the Node-RED window click on the three lines (burger menu) on the top right corner and in the menu, click on the `Manage palette`. This will open the node menu where you can add new nodes to your application.
 
-![](./images/manage_palette.png)
+![](./images/manage_palette.png){:height="50%" width="50%"}
 
 Install 2 packages:
 - node-red-contrib-scx-ibmiotapp
