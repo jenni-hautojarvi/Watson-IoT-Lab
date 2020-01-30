@@ -76,7 +76,7 @@ Scroll down and give the service name you want, then hit `Create`.
 
 **(6)** Select organization by clicking it.
 
-![](./images/Platform_account.png)
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/Platform_account.png" width="30%" height="30%">
 
 #### **Now you are ready to connect your device. Nice work!**
 
@@ -115,7 +115,7 @@ If the information is correct in Watson IoT Platform, click `Finnish`.
 
 **(7)** Now you can click `Connect` from the APP and select Humidity and Temperature.
 
-![](./images/Connect_select.png)
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/Connect_select.png" width="60%" height="60%">
 
 From IBM IoT Platform you can see in `Recent Events` section the data from SensiBLE.
 
@@ -141,7 +141,7 @@ Check role and click `Generate Key`
 
 ![](./images/API_role.png)
 
-Here you can copy API Key and API Token. **After closing this you can't see the API Token anymore!** 
+Here you can copy API Key and API Token. **After closing this you can't see the API Token anymore!**
 
 ![](./images/API_credentials.png)
 
