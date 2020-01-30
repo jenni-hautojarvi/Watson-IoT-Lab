@@ -197,7 +197,7 @@ Note: If you get an "Authorization denied" message when deploying your applicati
 
 In the Node-RED window click on the three lines (burger menu) on the top right corner and in the menu, click on the `Manage palette`. This will open the node menu where you can add new nodes to your application.
 
-![](./images/manage palette.png)
+![](./images/manage_palette.png)
 
 Install 2 packages:
 - node-red-contrib-scx-ibmiotapp
