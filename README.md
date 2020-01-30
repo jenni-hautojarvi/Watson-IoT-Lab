@@ -145,7 +145,7 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 
 ![](./images/IBM_catalog_node-red.png)
 
-**(2)** Create the app with a unique name: we'd suggest something like `Internet of Things Platform-eventname-yourinitials`, e.g. `Internet of Things Platform-workshop-JH`
+**(2)** Create the app with a unique name.
 
 Ensure you are using the `Lite` plan.
 
