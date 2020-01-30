@@ -119,7 +119,7 @@ If the information is correct in Watson IoT Platform, click `Finnish`.
 
 From IBM IoT Platform you can see in `Recent Events` section the data from SensiBLE.
 
-![](./images/Recent_event.png)
+![](./images/Resent_events.gif)
 
 **You have now connected SensiBLE to IBM IoT Platform. Good job!**
 
@@ -268,7 +268,7 @@ Change Device Id and click pen icon next to API Key
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/IBM_IoT_change.png" width="60%" height="60%">
 
-Add API Key and API Token from IBM IoT Platform. Click `Update`.
+Add copied API Key and API Token from IBM IoT Platform. Click `Update`.
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/IBM_IoT_API_credentials.png" width="60%" height="60%">
 
