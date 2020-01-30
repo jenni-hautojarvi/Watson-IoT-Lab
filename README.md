@@ -123,6 +123,29 @@ From IBM IoT Platform you can see in `Recent Events` section the data from Sensi
 
 **You have now connected SensiBLE to IBM IoT Platform. Good job!**
 
+**(8)** We need to create API Key and API Token for creating connection to Node-Red.
+
+From left menu click `Apps`
+
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/IBM_IoT_Apps.png" width="30%" height="30%">
+
+Click `Generate API Key`
+
+![](./images/IBM_IoT_Generate_API.png)
+
+Add information about the connection and click `Next`
+
+![](./images/API_info.png)
+
+Check role and click `Generate Key`
+
+![](./images/API_role.png)
+
+Here you can copy API Key and API Token. **After closing this you can't see the API Token anymore!** 
+
+![](./images/API_credentials.png)
+
+
 ******************************
 
 # Step 3. Create Node-Red dashboard and connect Watson IoT Platform for visualises data
@@ -230,6 +253,7 @@ Now your flow should look like this:
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/flow.png" width="60%" height="60%">
 
+
 **(3)** Add information to IoT-node connecting IBM IoT Platform to Node-Red.
 
 You will need to do some editing on IoT node, because credentials are not transferred with the rest of the code. Edit the blue IBM IoT node with:
@@ -250,13 +274,20 @@ Add API Key and API Token from IBM IoT Platform. Click `Update`.
 
 When you have make all the changes to this node, click `Done`.
 
-Now first click `dashboard-button` from upper right corner and then click `Deploy`. Everytime `Deploy` is red there are changes in the flow that has not been update. Next clik link to access ui.
+**(4)** View Dashboard UI
+Now, first click `dashboard-button` from upper right corner and then click `Deploy`. Everytime `Deploy` is red there are changes in the flow that has not been update. Next click link to access ui.
 
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/link_to_dashboard.png" width="60%" height="60%">
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/link_to_dashboard.png" width="50%" height="50%">
 
 New Tab opens and now you can see your data from SensiBLE in Node-Red Dashboard.
 
 ![](./images/Dashboard.png)
+
+If there is no data flow:
+- Check that your devices is connected to mobile App
+- Check from IBM IoT Platform Device Event part that you are receiving data. There should be continues data flow.
+- Check from Node-Red debug (button next to dashboard button) that you are receiving data.
+
 
 # Summary
 
