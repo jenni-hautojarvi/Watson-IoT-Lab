@@ -151,9 +151,14 @@ Ensure you are using the `Lite` plan.
 
 ![](./images/IBM_node-red.png)
 
-Scroll down and give the app name you want, then hit `Create`. This name will show in the address of our app http://yourAppName.eu-gb.mybluemix.net/ui
+Scroll down and give the app name you want, then hit `Create`. This name will show in the address of our app, http://yourAppName.eu-gb.mybluemix.net/ui.
 
 ![](./images/IBM_node-red_name.png)
+
+**(3)** Click on `Visit App URL`.
+
+![](./images/IBM_node-red_launch.png)
+
 
 ## Add image how to built node-red app....
 
