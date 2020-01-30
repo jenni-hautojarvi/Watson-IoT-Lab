@@ -222,15 +222,32 @@ You can get the complete Node-RED flow from the Hamk-IoT-Dashboard.json.
 
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. Click `Import` and paste the text you copied from above. Click `Import`.
 
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/import_json.png" width="50%" height="50%">
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/import_json.png" width="30%" height="30%">
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/paste_json.png" width="50%" height="50%">
 
 Now your flow should look like this:
 
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/flow.png" width="50%" height="50%">
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/flow.png" width="60%" height="60%">
 
 **(3)** Add information to IoT-node connecting IBM IoT Platform to Node-Red.
+
+You will need to do some editing on IoT node, because credentials are not transferred with the rest of the code. Edit the blue IBM IoT node with:
+- your own credentials (API Key and API Token from IBM IoT Platform)
+- change SensiBLE Device Id correct one (you can find this from IBM IoT Platform or from ST BLUEMS APP)
+
+Bouble-click IBM IoT node
+
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/IBM_IoT.png" width="30%" height="30%">
+
+Change Device Id and click pen icon next to API Key
+
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/IBM_IoT_change.png" width="60%" height="60%">
+
+Add API Key and API Token from IBM IoT Platform. Click `Update`.
+
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/IBM_IoT_API_credentials.png" width="60%" height="60%">
+
 
 **Kuva tähän**
 
