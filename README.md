@@ -121,8 +121,6 @@ From IBM IoT Platform you can see in `Recent Events` section the data from Sensi
 
 ![](./images/Resent_events.gif)
 
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/Resent_events.gif" width="110%" height="110%">
-
 **You have now connected SensiBLE to IBM IoT Platform. Good job!**
 
 **(8)** We need to create API Key and API Token for creating connection to Node-Red.
