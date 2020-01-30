@@ -148,7 +148,7 @@ Here you can copy API Key and API Token. **After closing this you can't see the 
 
 ******************************
 
-# Step 3. Create Node-Red dashboard and connect Watson IoT Platform for visualises data
+# Step 3. Create Node-Red dashboard and connect Watson IoT Platform to visualize data
 
 ## Create Node-Red app from catalog
 
