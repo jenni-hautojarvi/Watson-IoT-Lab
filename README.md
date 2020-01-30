@@ -161,26 +161,53 @@ Scroll down and give the app name you want, then hit `Create`. This name will sh
 
 **(4)** Configure your Node-RED editor.
 
-In this section, you will set up a username and password to protect your flow.
+In this section, you will set up a username and password to protect your flow. Click `Next`.
 
 ![](./images/node-red_instance_setup.png)
 
-Write an username and a password of your choice and click 'Next'. Remember that it does not have to be related to your IBM Cloud access.
+Write an username and a password of your choice and click `Next`. Remember that it does not have to be related to your IBM Cloud access.
 
 ![](./images/node-red_instace_credits.png)
 
-Node-RED is an open source project so you can add new nodes to the palette by modifying the package.json file.
+Node-RED is an open source project so you can add new nodes to the palette by modifying the package.json file. Click `Next`.
 
 ![](./images/node-red_instance_next.png)
 
 
-## Add image how to built node-red app....
+![](./images/node-red_instance_finish.png)
 
-*******
+**Your Node-RED flow is all set!**
+
+**(5)** Now click `Go to your Node-RED flow editor` to open the flow editor and enter your credentials to access the editor.
+
+![](./images/node-red_editor.png)
+
+![](./images/node-red_editor_credits.png)
+
+When using Node-RED we build our apps using this graphical editor interface to wire together the blocks we need. We can simply drag and drop the blocks from the left menu into the workspace in the center of the screen and connect them to create a new flow.
+
+Note: If you get an "Authorization denied" message when deploying your applications make your sure you are logged in. Click on the icon on the top right side of the Node-RED canvas and login with the credentials you created in the previous steps.
+
+![](./images/node-red_signin.png)
+
 
 ## Build your Node-RED flow to show IoT data Dashboard
 
-Add nodes:
+**(1)** First we will add some new nodes to our palette.
+
+In the Node-RED window click on the three lines (burger menu) on the top right corner and in the menu, click on the `Manage palette`. This will open the node menu where you can add new nodes to your application.
+
+![](./images/manage palette.png)
+
+Install 2 packages:
+- node-red-contrib-scx-ibmiotapp
+- node-red-dashboard
+
+![](./images/install_package.png)
+![](./images/install.png)
+
+Repeat for another package.
+
 
 Copy dashboard.txt file from github. **Click** in Node-Red upper right corner "burger menu" and `Import` part. Paste text you just have copy from github and click `Import`.
 
