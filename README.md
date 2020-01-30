@@ -103,13 +103,13 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/IBM_IoT_Token.png)
 
-**(6)** Now you can see summary of your device. Add **Organization** (from upper right corner, after ID: "This is organization") and **Authentication Token** (you just write it) information to the APP.
+**(6)** Now you can see summary of your device. Open ST BLUEMS APP and add **Organization** (from upper right corner, after ID: "This is organization") and **Authentication Token** (you just write it) information into the APP.
 
 ## **Kuva tähän vielä**
 
 ![](./images/IBM_IoT_Token.png)
 
-If the information is correct click `Finnish`.
+If the information is correct in Watson IoT Platform, click `Finnish`.
 
 ![](./images/Add_device_summary.png)
 
@@ -137,15 +137,23 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 - A built-in library allows you to save useful functions, templates or flows for re-use.
 - See [https://nodered.org](https://nodered.org) for more information.
 
-If you already have a Node-RED application, you can use that - In that case jump to add flow from text-file.
-
-**If you have running Node-Red in IBM Cloud you can skip this and use the existing one**
+**If you have running Node-Red application in IBM Cloud you can skip this and use that.**
 
 **(1)** Go back IBM Cloud and create a **_Node-Red Cloud Foundry App_** service.
 - Click on `Catalog` and `Software`, then write in search field **node-red**
 - Select `Node-RED Starter`
 
 ![](./images/IBM_catalog_node-red.png)
+
+**(2)** Create the app with a unique name: we'd suggest something like `Internet of Things Platform-eventname-yourinitials`, e.g. `Internet of Things Platform-workshop-JH`
+
+Ensure you are using the `Lite` plan.
+
+![](./images/IBM_node-red.png)
+
+Scroll down and give the app name you want, then hit `Create`. This name will show in the address of our app http://yourAppName.eu-gb.mybluemix.net/ui
+
+![](./images/IBM_node-red_name.png)
 
 ## Add image how to built node-red app....
 
