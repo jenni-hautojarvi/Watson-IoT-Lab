@@ -105,9 +105,7 @@ Scroll down and give the service name you want, then hit `Create`.
 
 **(6)** Now you can see summary of your device. Open ST BLUEMS APP and add **Organization** (from upper right corner, after ID: "This is organization") and **Authentication Token** (you just write it) information into the APP.
 
-## **Kuva tähän vielä**
-
-![](./images/IBM_IoT_Token.png)
+![](./images/Add_Org_aut_token.png)
 
 If the information is correct in Watson IoT Platform, click `Finnish`.
 
