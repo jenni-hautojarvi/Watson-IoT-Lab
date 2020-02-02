@@ -70,11 +70,11 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/Sign_in_IBM_IoT_platform.png)
 
-**(5)** Click your name in upper right corner.
+**(5)** If you have multiple organization, click your name in upper right corner.
 
 ![](./images/IBM_IoT_platform.png)
 
-**(6)** Select organization by clicking it.
+**(6)** and select organization by clicking it.
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/Platform_account.png" width="30%" height="30%">
 
