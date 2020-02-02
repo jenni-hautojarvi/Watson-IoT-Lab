@@ -281,7 +281,7 @@ From list drag function-node and audio out -node. Connect them by clicking grey 
 Double-click function node and add code:
 
 ```
-if (msg.payload.d["Temperature"] > 30){
+if (msg.payload.d["Temperature"] >= 30){
     msg.payload = "Lämpötila koholla"
     return msg;
 }
@@ -291,6 +291,14 @@ if (msg.payload.d["Humidity"] >= 60){
     return msg;
 }
 ```
+This code makes voice alarm when temperature is/or is above 30 degree and when humidity is/or is above 60 degree. You can change these if you want. The alarm is written in Finnish Language but you can change it to something else.
+
+Double-click voice audio -node and select voice you want to use and select the Group your dashboard name [IoT Dashboard] Temperature. If you don't select the Group Node-RED don't know which it belongs to and it won't work.
+
+Now add the connection from IBM IoT -node to function-node. Your flow should look like this.
+
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/flow_voice_alarm.png" width="60%" height="60%">
+
 
 
 **(5)** View Dashboard UI
