@@ -272,7 +272,27 @@ Add copied API Key and API Token from IBM IoT Platform. Click `Update`.
 
 When you have make all the changes to this node, click `Done`.
 
-**(4)** View Dashboard UI
+**(4)** Add voice alarm
+
+From list drag function-node and audio out -node. Connect them by clicking grey box and drag connection to another node.
+
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/voice_alarm.png" width="60%" height="60%">
+
+Double-click function node and add code:
+
+`
+if (msg.payload.d["Temperature"] > 30){
+    msg.payload = "Lämpötila koholla"
+    return msg;
+}
+
+if (msg.payload.d["Humidity"] >= 60){
+    msg.payload = "Ilmankosteus koholla"
+    return msg;
+}*
+
+
+**(5)** View Dashboard UI
 Now, first click `dashboard-button` from upper right corner and then click `Deploy`. Everytime `Deploy` is red there are changes in the flow that has not been update. Next click link to access ui.
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/link_to_dashboard.png" width="50%" height="50%">
