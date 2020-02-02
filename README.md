@@ -290,7 +290,7 @@ if (msg.payload.d["Humidity"] >= 60){
     msg.payload = "Ilmankosteus koholla"
     return msg;
 }
-``
+```
 
 
 **(5)** View Dashboard UI
