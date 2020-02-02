@@ -280,7 +280,7 @@ From list drag function-node and audio out -node. Connect them by clicking grey 
 
 Double-click function node and add code:
 
-`
+```
 if (msg.payload.d["Temperature"] > 30){
     msg.payload = "Lämpötila koholla"
     return msg;
@@ -289,7 +289,8 @@ if (msg.payload.d["Temperature"] > 30){
 if (msg.payload.d["Humidity"] >= 60){
     msg.payload = "Ilmankosteus koholla"
     return msg;
-}*
+}
+``
 
 
 **(5)** View Dashboard UI
