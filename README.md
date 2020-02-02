@@ -87,9 +87,9 @@ Scroll down and give the service name you want, then hit `Create`.
 
 ![](./images/IBM_IoT_add_device.png)
 
-**(2)** From ST BLUEMS APP you need to find Device Type and Device Id.
+**(2)** From ST BLUEMS APP you need to find Device Type and Device Id. The Device Type might be Nucleo but you can change it to SensiEDGE.
 
-![](./images/Device_id_type.jpeg)
+![](./images/Device_id_type.png)
 
 **(3)** Add Device Type and Device ID from App and click `Next`.
 
