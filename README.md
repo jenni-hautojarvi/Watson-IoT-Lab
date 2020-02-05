@@ -166,19 +166,42 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 
 ![](./images/IBM_catalog_node-red.png)
 
-**(2)** Create the app with a unique name.
+**(2)** Click on the Create app button (1) to continue
 
-Ensure you are using the `Lite` plan.
+![](./images/IBM_catalog_node-red-create-app.png)
 
-![](./images/IBM_node-red.png)
+**(3)** Now you need to configure the Node-RED Starter application.
 
-Scroll down and give the app name you want, then hit `Create`. This name will show in the address of our app, http://yourAppName.eu-gb.mybluemix.net/ui.
+1. On the App details page, a randomly generated name will be suggested – Node RED SSLPD in the screenshot below. Either accept that default name or provide a unique name for your application (1). This will become part of the application URL. Note: If the name is not unique, you will see an error message and you must enter a different name before you can continue.
+
+2. The Node-RED Starter application requires an instance of the Cloudant database service to store your application flow configuration. Select the region (2) the service should be created in and what pricing plan it should use. Note: You can only have one Cloudant instance using the Lite plan. If you have already got an instance, you will be able to select it from the Pricing plan select box (3). You can have more than one Node-RED Starter application using the same Cloudant service instance.
+
+3. Click the Create button (4) to continue. This will create your application, but it is not yet deployed to IBM Cloud.
 
 ![](./images/IBM_node-red_name.png)
 
-**(3)** Click on `Visit App URL`.
+**(3)** Enable the Continuous Delivery feature
 
-![](./images/IBM_node-red_launch.png)
+At this point, you have created the application and the resources it requires, but you have not deployed it anywhere to run. This step shows how to setup the Continuous Delivery feature that will deploy your application into the **Cloud Foundry** space of IBM Cloud.
+
+1. On the next screen, click the `Deploy your app` button (1) to enable the Continuous Delivery feature for your application.
+
+![](./images/Deploy_your_app.png)
+
+2. You will need to create an **IBM Cloud API** key to allow the deployment process to access your resources. Click the `New button` (1) to create the key. A message dialog will appear. Read what it says and then confirm and close the dialog.
+
+3. The Node-RED Starter kit only supports deployment to the **Cloud Foundry** space of IBM Cloud. Select the `region` (2) to **deploy your application to**. This should match the region you created your Cloudant instance in.
+
+4. Select the `region` (3) to create the **DevOps toolchain**.
+
+5. Click `Create` (4). This will take you back to the application details page.
+
+![](./images/NR-configure-pipeline.png)
+
+
+
+
+
 
 **(4)** Configure your Node-RED editor.
 
