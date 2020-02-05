@@ -172,15 +172,15 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 
 **(3)** Now you need to configure the Node-RED Starter application.
 
-1. On the App details page, a randomly generated name will be suggested – Node RED SSLPD in the screenshot below. Either accept that default name or provide a unique name for your application (1). This will become part of the application URL. Note: If the name is not unique, you will see an error message and you must enter a different name before you can continue.
+1. On the *App details* page, a randomly generated name will be suggested – **Node RED SSLPD** in the screenshot below. Either accept that default name or provide a unique name for your application (1). This will become part of the application URL. _**Note:**_ If the name is not unique, you will see an error message and you must enter a different name before you can continue.
 
-2. The Node-RED Starter application requires an instance of the Cloudant database service to store your application flow configuration. Select the region (2) the service should be created in and what pricing plan it should use. Note: You can only have one Cloudant instance using the Lite plan. If you have already got an instance, you will be able to select it from the Pricing plan select box (3). You can have more than one Node-RED Starter application using the same Cloudant service instance.
+2. The Node-RED Starter application requires an instance of the Cloudant database service to store your application flow configuration. Select the region (2) the service should be created in and what pricing plan it should use. _**Note:**_ You can only have one Cloudant instance using the Lite plan. If you have already got an instance, you will be able to select it from the **Pricing plan** select box (3). You can have more than one Node-RED Starter application using the same Cloudant service instance.
 
-3. Click the Create button (4) to continue. This will create your application, but it is not yet deployed to IBM Cloud.
+3. Click the `Create button` (4) to continue. This will create your application, but it is not yet deployed to IBM Cloud.
 
 ![](./images/IBM_node-red_name.png)
 
-**(3)** Enable the Continuous Delivery feature
+**(4)** Enable the Continuous Delivery feature
 
 At this point, you have created the application and the resources it requires, but you have not deployed it anywhere to run. This step shows how to setup the Continuous Delivery feature that will deploy your application into the **Cloud Foundry** space of IBM Cloud.
 
@@ -188,7 +188,7 @@ At this point, you have created the application and the resources it requires, b
 
 ![](./images/Deploy_your_app.png)
 
-2. You will need to create an **IBM Cloud API** key to allow the deployment process to access your resources. Click the `New button` (1) to create the key. A message dialog will appear. Read what it says and then confirm and close the dialog.
+2. You will need to create an **IBM Cloud API** key to allow the deployment process to access your resources. Click the `New` button (1) to create the key. A message dialog will appear. Read what it says and then confirm and close the dialog.
 
 3. The Node-RED Starter kit only supports deployment to the **Cloud Foundry** space of IBM Cloud. Select the `region` (2) to **deploy your application to**. This should match the region you created your Cloudant instance in.
 
@@ -198,12 +198,38 @@ At this point, you have created the application and the resources it requires, b
 
 ![](./images/NR-configure-pipeline.png)
 
+6. After a few moments, the Continuous Delivery section will refresh with the details of your newly created Toolchain. The Status field of the Delivery Pipeline will show **In progress**. That means your application is still being built and deployed.
+
+7. Click on the `In progress` link to see the full status of the Delivery Pipeline.
+
+![](./images/NR-continuous-delivery.png)
+
+8. The Deploy stage will take a few minutes to complete. You can click on the `View logs and history` link to check its progress. Eventually the Deploy stage will go green to show it has passed. This means your Node-RED Starter application is now running.
+
+![](./images/NR-pipeline.png)
+
+**(5)** Open the Node-RED application
+
+Now that you’ve deployed your Node-RED application, let’s open it up!
+
+1. Open your IBM Cloud Resource list by selecting the sidebar menu (1) and then selecting `Resource List` (2).
+
+![](./images/ResourceList.png)
+
+2. You will see your newly created Node-RED Application listed under the **Apps** section (1). You will also see a corresponding entry under the Cloud Foundry apps section (2). Click on this **Cloud Foundry app** entry to go to your deployed application’s details page.
+
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/NR-resource-list.png" width="50%" height="50%">
 
 
 
 
 
-**(4)** Configure your Node-RED editor.
+
+
+
+
+
+**(6)** Configure your Node-RED editor.
 
 In this section, you will set up a username and password to protect your flow. Click `Next`.
 
