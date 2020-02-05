@@ -304,33 +304,10 @@ Add a **Commit message** (2) and click `Commit changes` (3)
 
 6. Once the Deploy stage completes, your application will have restarted and now have the node-red-dashboard nodes preinstalled.
 
+If the nodes are not showing in Node-red. Refresh browser. You might need to login to your application.
+
 **Congratulations!** You have now created a Node-RED application that is hosted in the IBM Cloud. You have also learned how to edit the application source code and automatically deploy changes.
 
-
-
-
-
-
-
-In the Node-RED window click on the three lines (burger menu) on the top right corner and in the menu, click on the `Manage palette`. This will open the node menu where you can add new nodes to your application.
-
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/manage_palette.png" width="30%" height="30%">
-
-You will see the nodes that are installed by default and if you go to the 'install' tab you can search for any node package and add it directly to your app.
-
-Install 2 packages:
-- node-red-contrib-scx-ibmiotapp
-- node-red-dashboard
-
-![](./images/install_package.png)
-
-This will prompt a window to confirm the installation. Click on install and wait few minutes, the application may require a restart. Click "Done" to close the left side menu.
-
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/install.png" width="50%" height="50%">
-
-After few minutes you will see the new nodes in your Node-RED palette.
-
-Repeat for another package.
 
 **(2)** In order to make the lab easier we are going to import the rest of the code.
 
