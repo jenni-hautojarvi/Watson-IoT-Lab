@@ -308,7 +308,8 @@ If the nodes are not showing in Node-red. Refresh browser. You might need to log
 
 **Congratulations!** You have now created a Node-RED application that is hosted in the IBM Cloud. You have also learned how to edit the application source code and automatically deploy changes.
 
-
++
++
 **(2)** In order to make the lab easier we are going to import the rest of the code.
 
 You can get the complete Node-RED flow from the Hamk-IoT-Dashboard.json.
