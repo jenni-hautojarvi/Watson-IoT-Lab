@@ -222,7 +222,7 @@ Now that you’ve deployed your Node-RED application, let’s open it up!
 
 3. From the details page, click the `Visit App URL` link to access your Node-RED Starter application.
 
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/NR-app-details.png" width="30%" height="30%">
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/NR-app-details.png" width="50%" height="50%">
 
 
 
