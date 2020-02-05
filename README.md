@@ -225,23 +225,19 @@ Now that you’ve deployed your Node-RED application, let’s open it up!
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/NR-app-details.png" width="50%" height="50%">
 
 
-
-
-
-
-
-
 **(6)** Configure your Node-RED editor.
 
-In this section, you will set up a username and password to protect your flow. Click `Next`.
+The first time you open your Node-RED app, you’ll need to configure it and set up security.
+
+1. In this section, you will set up a username and password to protect your flow. Click `Next`.
 
 ![](./images/node-red_instance_setup.png)
 
-Write an username and a password of your choice and click `Next`. Remember that it does not have to be related to your IBM Cloud access.
+2. Write an username and a password of your choice and click `Next`. Remember that it does not have to be related to your IBM Cloud access.
 
 ![](./images/node-red_instace_credits.png)
 
-Node-RED is an open source project so you can add new nodes to the palette by modifying the package.json file. Click `Next`.
+3. Node-RED is an open source project so you can add new nodes to the palette by modifying the package.json file. Click `Next`.
 
 ![](./images/node-red_instance_next.png)
 
@@ -250,7 +246,7 @@ Node-RED is an open source project so you can add new nodes to the palette by mo
 
 **Your Node-RED flow is all set!**
 
-**(5)** Now click `Go to your Node-RED flow editor` to open the flow editor and enter your credentials to access the editor.
+**(7)** Now click `Go to your Node-RED flow editor` to open the flow editor and enter your credentials to access the editor.
 
 ![](./images/node-red_editor.png)
 
