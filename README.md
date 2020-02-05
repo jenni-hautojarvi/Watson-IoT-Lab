@@ -218,9 +218,11 @@ Now that you’ve deployed your Node-RED application, let’s open it up!
 
 2. You will see your newly created Node-RED Application listed under the **Apps** section (1). You will also see a corresponding entry under the Cloud Foundry apps section (2). Click on this **Cloud Foundry app** entry to go to your deployed application’s details page.
 
-<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/NR-resource-list.png" width="50%" height="50%">
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/NR-resource-list.png" width="30%" height="30%">
 
+3. From the details page, click the `Visit App URL` link to access your Node-RED Starter application.
 
+<img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/NR-app-details.png" width="30%" height="30%">
 
 
 
