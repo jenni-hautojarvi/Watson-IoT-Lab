@@ -259,6 +259,9 @@ Note: If you get an "Authorization denied" message when deploying your applicati
 
 ![](./images/node-red_signin.png)
 
+The Node-RED editor opens showing the default flow.
+
+![](./images/NR-editor.png)
 
 ## Build your Node-RED flow to show IoT data Dashboard
 
