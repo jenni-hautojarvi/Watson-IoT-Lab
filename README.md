@@ -306,15 +306,15 @@ Add a **Commit message** (2) and click `Commit changes` (3)
 
 If the nodes are not showing in Node-red. Refresh browser. You might need to login to your application.
 
+<br>
 **Congratulations!** You have now created a Node-RED application that is hosted in the IBM Cloud. You have also learned how to edit the application source code and automatically deploy changes.
 
 <br>
 <br>
->
 
 **(2)** In order to make the lab easier we are going to import the rest of the code.
 
-You can get the complete Node-RED flow from the Hamk-IoT-Dashboard.json.
+You can get the complete Node-RED flow from the **Hamk-IoT-Dashboard.json**.
 
 Import the flow by simply clickcing on the 3 white lines on the top right corner of the Node-RED window. Click `Import` and paste the text you copied from above. Click `Import`.
 
