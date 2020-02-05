@@ -161,7 +161,7 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 **If you have running Node-Red application in IBM Cloud you can skip this and use that.**
 
 **(1)** Go back IBM Cloud and create a **_Node-Red Cloud Foundry App_** service.
-- Click on `Catalog` and `Software`, then write in search field **node-red**
+- Click on `Catalog`, write in search field **node-red** and click `Software`
 - Select `Node-RED Starter`
 
 ![](./images/IBM_catalog_node-red.png)
@@ -308,8 +308,8 @@ If the nodes are not showing in Node-red. Refresh browser. You might need to log
 
 **Congratulations!** You have now created a Node-RED application that is hosted in the IBM Cloud. You have also learned how to edit the application source code and automatically deploy changes.
 
-{empty}+
-{empty}+
+_
+_
 **(2)** In order to make the lab easier we are going to import the rest of the code.
 
 You can get the complete Node-RED flow from the Hamk-IoT-Dashboard.json.
