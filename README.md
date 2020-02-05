@@ -252,6 +252,9 @@ The first time you open your Node-RED app, you’ll need to configure it and set
 
 <img src="https://github.com/jenni-hautojarvi/Watson-IoT-Lab/blob/master/images/node-red_editor_credits.png" width="50%" height="50%">
 
+The Node-RED editor opens showing the default flow.
+
+![](./images/NR-editor.png)
 
 When using Node-RED we build our apps using this graphical editor interface to wire together the blocks we need. We can simply drag and drop the blocks from the left menu into the workspace in the center of the screen and connect them to create a new flow.
 
@@ -259,13 +262,55 @@ Note: If you get an "Authorization denied" message when deploying your applicati
 
 ![](./images/node-red_signin.png)
 
-The Node-RED editor opens showing the default flow.
-
-![](./images/NR-editor.png)
 
 ## Build your Node-RED flow to show IoT data Dashboard
 
-**(1)** First we will add some new nodes to our palette.
+**(1)** Add extra nodes to your Node-RED palette
+
+Node-RED provides the palette manager feature that allows you to install additional nodes directly from the browser-based editor. This is convenient for trying nodes out, but it can cause issues due to the limited memory of the default Node-RED starter application.
+
+The recommended approach is to edit your application’s package.json file to include the additional node modules and then redeploy the application.
+
+This step shows how to do that in order to add the [node-red-dashboard](https://flows.nodered.org/node/node-red-dashboard) module and [node-red-contrib-scx-ibmiotapp](https://flows.nodered.org/node/node-red-contrib-scx-ibmiotapp).
+
+1. On your application’s details page, click the url in the **Continuous Delivery** box. This will take you to a git repository where you can edit the application source code from your browser.
+
+![](./images/NR-continuous-delivery-url.png)
+
+2. Scroll down the list of files and click on `package.json`. This file lists the module dependencies of your application.
+
+![](./images/NR-file-list.png)
+
+3. Click the `Edit` button
+
+![](./images/NR-edit-file-button.png)
+
+4. Add the following entry to the top of the dependencies section (1):
+
+```
+"node-red-dashboard": "2.x",
+"node-red-contrib-scx-ibmiotapp": "0.x",
+```
+
+_**Note:**_ Do not forget the comma (,) at the end of the line to separate it from the next entry.
+
+Add a **Commit message** (2) and click `Commit changes` (3)
+
+![](./images/add_nodes.png)
+
+5. At this point, the Continuous Delivery pipeline will automatically run to build and deploy that change into your application. If you view the Delivery Pipeline you can watch its progress. The Build section shows you the last commit made (1) and the Deploy section shows the progress of redeploying the application (2).
+
+![](./images/Changes_and_status.png)
+
+6. Once the Deploy stage completes, your application will have restarted and now have the node-red-dashboard nodes preinstalled.
+
+**Congratulations!** You have now created a Node-RED application that is hosted in the IBM Cloud. You have also learned how to edit the application source code and automatically deploy changes.
+
+
+
+
+
+
 
 In the Node-RED window click on the three lines (burger menu) on the top right corner and in the menu, click on the `Manage palette`. This will open the node menu where you can add new nodes to your application.
 
