@@ -357,12 +357,12 @@ Double-click function node and add code:
 
 ```
 if (msg.payload.d["Temperature"] >= 30){
-    msg.payload = "Lämpötila koholla"
+    msg.payload = "Lämpötila koholla";
     return msg;
 }
 
 if (msg.payload.d["Humidity"] >= 60){
-    msg.payload = "Ilmankosteus koholla"
+    msg.payload = "Ilmankosteus koholla";
     return msg;
 }
 ```
